@@ -1,0 +1,52 @@
+.showcase-container {
+    width: 100%;
+    /* background-color: #1a1a1a; */
+    color: black;
+    padding: 20px;
+  }
+  
+  .proficiency-content {
+    width: 100%;
+  }
+  
+  .proficiency-content h2 {
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .proficiency-bar {
+    margin-bottom: 20px;
+  }
+  
+  .proficiency-bar span {
+    display: block;
+    font-size: 1.2em;
+    margin-bottom: 5px;
+  }
+  
+  .progress {
+    width: 100%;
+    background-color: #333;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  
+  .progress-bar {
+    height: 20px;
+    background-color: #45a049;
+    border-radius: 20px;
+  }
+  
+  .progress-bar.frontend {
+    width: 60%;
+  }
+  
+  .progress-bar.backend {
+    width: 80%;
+  }
+  
+  .progress-bar.programming {
+    width: 90%;
+  }
+  

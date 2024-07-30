@@ -1,0 +1,41 @@
+.glowing-frame-container {
+    position: relative;
+    width: 300px; /* Adjust width as needed */
+    height: 400px; /* Adjust height as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.glowing-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30vw;
+    height: 100%;
+    z-index: 1;
+    object-fit: cover;
+    border-radius:30px;
+}
+  
+.centered-image-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 150px; /* Adjust width as needed */
+    height: 200px; /* Adjust height as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.centered-image {
+    width: 60vw;
+    height: 40.5vh;
+    object-fit: cover;
+    margin-left: 50%;
+    border-radius: 15px; /* Optional: to give a rounded corner to the image */
+}
+
